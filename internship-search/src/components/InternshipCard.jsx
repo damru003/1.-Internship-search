@@ -11,7 +11,7 @@ const InternshipCard = ({ internship }) => {
 
                 <div className="flex justify-between items-center" >
                     <h2 className="font-bold text-md text-md">{internship.title}</h2>
-                    <img src="/src/assets/company-17.png" className="w-6"/>
+                    <img src="/company-17.png" className="w-6"/>
                 </div>
 
                 <div className="flex gap-2 items-center mt-2">
