@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from "react";
-import FilterSidebar from "../FilterSidebar.jsx";
+import FilterBar from "../FilterBar.jsx";
 import InternshipCard from "../InternshipCard.jsx";
 import { FilterContext } from "../../context/FilterContext.jsx";
 import { FaAngleRight } from "react-icons/fa";
@@ -73,7 +73,7 @@ const Home = () => {
                 <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
 
                     <div className="md:col-span-1 md:block hidden ">
-                        <FilterSidebar />
+                        <FilterBar />
                     </div>
 
                     <div className="md:col-span-2 space-y-4">

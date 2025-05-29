@@ -4,7 +4,7 @@ import { LuFilter } from "react-icons/lu";
 import { FaCaretDown } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 
-const FilterSidebar = () => {
+const FilterBar = () => {
     const { filters, setFilters } = useContext(FilterContext);
 
     const handleChange = (e) => {
@@ -108,4 +108,4 @@ const FilterSidebar = () => {
     );
 };
 
-export default FilterSidebar;
+export default FilterBar;
