@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from "react";
-import FilterSidebar from "../FilterSideBar";
-import InternshipCard from "../InternshipCard";
-import { FilterContext } from "../../context/FilterContext";
+import FilterSidebar from "../FilterSideBar.jsx";
+import InternshipCard from "../InternshipCard.jsx";
+import { FilterContext } from "../../context/FilterContext.jsx";
 import { FaAngleRight } from "react-icons/fa";
 
 const Home = () => {
@@ -78,7 +78,7 @@ const Home = () => {
 
                     <div className="md:col-span-2 space-y-4">
 
-                    <div className="bg-white p-3 rounded-xl" >
+                    <div className="bg-white p-3 rounded-xl hover:shadow-2xl hover:scale-101 transform transition duration-300" >
                         <h2 className="font-semibold text-md">Get Internship and Job Preparation training FREE !</h2>
                         <p className="font-light text-xs text-slate-800 mt-2">By enrolling in trainings at Flat 80% OFF!</p>
                         <p className="mt-4 font-medium text-sm" >Use Coupon: <span className="font-bold" >COLLEGE10</span></p>
