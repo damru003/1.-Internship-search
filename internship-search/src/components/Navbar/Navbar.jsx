@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
             <a href="/">
-              <img src="/src/assets/logo.jpg" className="w-36 mt-[-10px]" />
+              <img src="/logo.jpg" className="w-36 mt-[-10px]" />
             </a>
           </div>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
 
             <div className="flex items-center gap-1">
-              <img src="/src/assets/profile.jpeg" className="w-6 rounded-full" />
+              <img src="/profile.jpeg" className="w-6 rounded-full" />
               <span>
                 <FaCaretDown />
               </span>
