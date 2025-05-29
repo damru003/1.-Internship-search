@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from "react";
-import FilterSidebar from "../FilterSideBar.jsx";
+import FilterSidebar from "../FilterSidebar.jsx";
 import InternshipCard from "../InternshipCard.jsx";
 import { FilterContext } from "../../context/FilterContext.jsx";
 import { FaAngleRight } from "react-icons/fa";
